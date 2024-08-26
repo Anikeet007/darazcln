@@ -33,6 +33,7 @@ function Footer() {
         </div>
         <div>
           <h1 className='py-4 text-orange-600 '>View more on app</h1>
+          <p className='text-bold '>Happy Shopping</p>
           <a href="//play.google.com/store/apps/details?spm=a2a0e.tm80335403.footer_top.android.28a3784crtSlI0&amp;id=com.daraz.android&amp;scm=1003.4.icms-zebra-100024112-2877125.OTHER_5439623634_2540321"><img src="https://www.aps.edu/students-parents/images/downloadOnTheGooglePlayStoreBadge.png/image " className='w-[150px]' alt="" /></a>
         </div>
 

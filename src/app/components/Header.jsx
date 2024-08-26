@@ -28,19 +28,19 @@ function Header() {
 
                 <div className=' container py-4  flex justify-between items-center '>
                     <div className=''>
-                        <a href="/"><img className='w-[120px]' src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png" alt="" /></a>
+                        <a href="/"><img className='w-[150px]' src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png" alt="" /></a>
                     </div>
-                    <div className='w-[50%]'>
+                    <div className='md:w-[50%] w-[100%]'>
                         <label className="relative text-black">
-                           <input type="search" name='search' placeholder='Search in daraz' className='rounded-2xl  md:w-[100%]  p-2' />
+                           <input type="search" name='search' placeholder='Search in daraz' className='rounded-2xl  md:w-[100%] p-2' />
                           
                         </label>
                        
                     </div>
                     <nav className=''>
-                        <ul className='flex gap-4 items-center'>
+                        <ul className='flex gap-2 items-center'>
                             <li><a href="/login" className='flex items-center'> <MdOutlinePerson2 /> Login</a></li>
-                            <li><a href="/register">Sign Up</a></li>
+                            <li><a href="/register" >SignUp</a></li>
                             <li><a href=""><CiShoppingCart /></a></li>
                         </ul>
                     </nav>

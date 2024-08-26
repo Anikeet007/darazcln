@@ -43,9 +43,9 @@ export default function Home() {
 
         <div className="container grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-3 gap-10 ">
           {products.map((a) => (
-            <div className="p-4 md:w-full w-[200px] border md:h-[520px] sm:h-[350px] h-[280px]" key={a.id}>
-              <img src={a.image} className="md:h-[50vh] sm:h-[25vh] h-[20vh] w-[200px] object-fill " />
-              <h1 className="md:font-bold font-extralight text-nowrap  overflow-hidden"> <Link href={`/details/${a.id}`}>{a.title}</Link></h1>
+            <div className="p-4 md:w-full w-[180px] border md:h-[520px] sm:h-[350px] h-[280px]" key={a.id}>
+              <img src={a.image} className="md:h-[50vh] sm:h-[25vh] h-[20vh] w-[160px] object-fill " />
+              <h1 className="md:font-bold font-extralight truncate   overflow-hidden"> <Link href={`/details/${a.id}`}>{a.title}</Link></h1>
               <p>Price: $ {a.price}</p>
               <button className="bg-orange-600 p-2 rounded hover:bg-slate-600">Order now</button>
             </div>

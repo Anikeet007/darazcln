@@ -24,4 +24,7 @@
     height: 100%;
     object-fit: cover;
   } 
+  button, input, optgroup, select, textarea{
+    font-family: none;
+  }
  

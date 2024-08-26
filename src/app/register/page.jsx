@@ -3,14 +3,14 @@ import React from 'react'
 function page() {
     return (
         < >
-            <section className='container py-3  md:w-[30%] w-full'>
+            <section className='container py-3  md:w-[30%] w-full md:p-0 p-3'>
                 <div className=' md:text-center md:items-center '>
                     <div className='flex justify-between p-3'>
                         <div><h1 className='text-orange-600'>Welcome to daraz</h1></div>
                         <div><p className='text-sm'>Already a Member,<a href='/login' className='text-orange-400'>Login Here</a></p> </div>
                     </div>
 
-                    <form action="" className='shadow'>
+                    <form action="" className='shadow p-3'>
                         <label htmlFor="" className='text-black my-5'>
                             <h2 className='font-bold py-3'>Phone or Email</h2>
 
@@ -20,7 +20,7 @@ function page() {
                             <p className='py-3 font-bold'>Enter your date of birth</p>
                             <input type="date" name="date" id="" className='border' required />
                             <div className='py-4 '>
-                            <button type="submit" className='bg-orange-600 rounded md:w-[19%] w-[50%] p-2'>Sign Up</button>
+                            <button type="submit" className='bg-orange-600 rounded md:w-[20%] w-[50%] p-2'>Sign Up</button>
                             </div>
 
 
