@@ -8,10 +8,10 @@ function Footer() {
         <div>
           <ul>
             <h1 className='py-4 text-orange-600'>Customer Care</h1>
-            <li><a href="">Help Center</a></li>
-            <li><a href="">How to Buy</a></li>
-            <li><a href="">Returns & Refunds</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="/login">Help Center</a></li>
+            <li><a href="/login">How to Buy</a></li>
+            <li><a href="/login">Returns & Refunds</a></li>
+            <li><a href="/login">Contact Us</a></li>
 
           </ul>
 
@@ -19,16 +19,16 @@ function Footer() {
         <div>
           <ul>
             <h1 className='py-4 text-orange-600'>Daraz</h1>
-            <li><a href="">About Daraz</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Daraz Blog</a></li>
-            <li><a href="">Terms & Conditions</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Digital Payments</a></li>
-            <li><a href="">Daraz Customer University</a></li>
-            <li><a href="">Daraz Affiliate Program</a></li>
-            <li><a href="">Review & Win</a></li>
-            <li><a href="">Meet the winners</a></li>
+            <li><a href="/login">About Daraz</a></li>
+            <li><a href="/login">Careers</a></li>
+            <li><a href="/login">Daraz Blog</a></li>
+            <li><a href="/login">Terms & Conditions</a></li>
+            <li><a href="/login">Privacy Policy</a></li>
+            <li><a href="/login">Digital Payments</a></li>
+            <li><a href="/login">Daraz Customer University</a></li>
+            <li><a href="/login">Daraz Affiliate Program</a></li>
+            <li><a href="/login">Review & Win</a></li>
+            <li><a href="/login">Meet the winners</a></li>
           </ul>
         </div>
         <div>
